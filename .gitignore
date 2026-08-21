@@ -1,0 +1,138 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Sphinx documentation
+doc/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyvenv
+.venv
+venv
+ENV
+env
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type checker
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Project-specific / data files (large files should not be checked into Git)
+*.csv
+*.zip
+*.parquet
+*.joblib
+*.pkl
+*.pth
+*.pt
+*.h5
+data/
+# Ephemeral dataset caches and outputs
+output/
+implement/output/
+implement/dataset/ephermal_*
+implement/dataset/ephemeral_*
+notebooks/exploration_outputs/
+
+# Dataset tracking rules
+dataset/genuine_dji_flights/raw_dataset/
+dataset/genuine_dji_flights/trimmed_dataset/
+dataset/genuine_dji_flights/DroNER*
+!dataset/genuine_dji_flights/consistent_dataset/**
+!dataset/hardware_spoofer/**
+!dataset/curated_flights/**
